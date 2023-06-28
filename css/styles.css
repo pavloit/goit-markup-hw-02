@@ -1,0 +1,106 @@
+:root {
+    --main-color: #2E2F42;
+    --logo-color: #4D5AE5;
+    --light-color: #FFFFFF;
+    --prim-fnt: Roboto, sans-serif;
+    --sec-fnt: Raleway, sans-serif;
+}
+
+body {
+    font-family: var(--prim-fnt);
+    color: #434455;
+    background-color: var(--light-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a, address {
+    text-decoration: none;
+    color: currentColor;
+    font-style: inherit;
+    color: var(--main-color);
+}
+
+.logo {
+    font-family: var(--sec-fnt);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--logo-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.hlogo-span {
+    color: var(--main-color);
+}
+
+.footer {
+    background-color: var(--main-color);
+    color: var(--light-color);
+}
+
+.flogo-span {
+    color: var(--light-color);
+}
+
+.nav-list {
+    font-weight: 600;
+}
+
+.section-hero {
+    background-color: var(--main-color);
+}
+
+.hero-title {
+    color: var(--light-color);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.hero-btn {
+    background-color: var(--logo-color);
+    color: var(--light-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* portfolio button list */
+
+.btn-list button {
+    text-transform: capitalize
+}
+
+.btn-active {
+    background-color: #404BBF;
+    color: var(--light-color);
+}
+
+.btn-item {
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+}
+
+.portfolio-section {
+    text-transform: capitalize;
+}
+
+.portfolio-section h3 p {
+    text-transform: inherit;
+}
